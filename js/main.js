@@ -31,24 +31,33 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 
   // Form validation helpers
-  function validateEmail(email) {
-    const re = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-    return re.test(email.toLowerCase());
-  }
+function validateEmail(email) {
+    const re = /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+    return re.test(String(email).toLowerCase());
+}
 
-  function showError(input, message) {
-    const formControl = input.parentElement;
-    const errorSpan = formControl.querySelector(".error-message");
-    errorSpan.textContent = message;
-    input.classList.add("error");
-  }
+function showError(input, message) {
+    const formGroup = input.parentElement;
+    formGroup.classList.add('error');
+    const small = formGroup.querySelector('small'); 
+    if (!small) { 
+        const errorElement = document.createElement('small');
+        errorElement.textContent = message;
+        input.after(errorElement);
+    } else {
+        small.textContent = message;
+    }
 
-  function clearError(input) {
-    const formControl = input.parentElement;
-    const errorSpan = formControl.querySelector(".error-message");
-    errorSpan.textContent = "";
-    input.classList.remove("error");
-  }
+}
+
+function clearError(input) {
+    const formGroup = input.parentElement;
+    formGroup.classList.remove('error');
+    const small = formGroup.querySelector('small');
+    if (small) {
+        small.textContent = '';
+    }
+}
 
   // Real-time validation
   ["name", "email", "message"].forEach((id) => {
