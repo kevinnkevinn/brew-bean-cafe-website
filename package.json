@@ -1,0 +1,13 @@
+{
+  "name": "cafe-website",
+  "version": "1.0.0",
+  "description": "Creating a website development portfolio. To improve skills in web development. The theme is to create a website to promote a cafe in America.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Kevin Kiding",
+  "license": "ISC",
+  "dependencies": {}
+}

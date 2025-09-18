@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Locations – Brew & Bean Café</title>
+    <meta name="description" content="Find the nearest Brew & Bean Café location across the USA. Visit us in major cities like New York, LA, Chicago, and more.">
+    <link rel="icon" href="assets/logo-brew-bean-cafe.png" type="image/png">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" rel="stylesheet">
+</head>
+<body class="transition-fade">
+    <div id="page-wrapper">
+        <!-- Header Section -->
+        <header class="site-header">
+            <nav class="navbar" aria-label="Main navigation">
+                <a href="index.html" class="logo" aria-label="Home">
+                    <img src="assets/logo-brew-bean-cafe.png" alt="Brew & Bean Café Logo">
+                </a>
+                <button class="burger" aria-controls="primary-menu" aria-expanded="false" aria-label="Open Menu">
+                    <span class="burger-line"></span>
+                    <span class="burger-line"></span>
+                    <span class="burger-line"></span>
+                </button>
+                <ul id="primary-menu" class="nav-list">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="menu.html">Menu</a></li>
+                    <li><a href="location.html">Locations</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <!-- Hero Section for Locations -->
+        <section class="hero hero-small animate__animated animate__fadeIn" aria-label="Locations Hero Section">
+            <picture>
+                <source srcset="assets/img/map.webp" type="image/webp">
+                <img src="assets/img/map.jpg" alt="Coffee shop location on a map" loading="lazy">
+            </picture>
+
+            <!-- Video Background -->
+            <video playsinline autoplay muted loop poster="/assets/finding-coffee-thumbnail.png" class="hero-video">
+                <source src="assets/finding-coffee-shop.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            
+            <div class="hero-content">
+                <h1 class="hero-title animate__animated animate__fadeInUp">Find Your Nearest Spot</h1>
+                <p class="hero-subtitle animate__animated animate__fadeInUp animate__delay-0-5s">Delicious coffee is always just around the corner.</p>
+            </div>
+        </section>
+
+        <!-- Locations Section -->
+        <section class="locations-section" aria-labelledby="locations-title">
+            <h2 id="locations-title" class="section-title animate__animated animate__fadeInUp">Our Cafés Across the USA</h2>
+            <div class="location-grid">
+                <article class="location-card animate__animated animate__fadeInUp">
+                    <h3>New York, NY</h3>
+                    <p><strong>Address:</strong> 250 5th Ave, New York, NY 10001</p>
+                    <p><strong>Phone:</strong> +1 (212) 555-0123</p>
+                    <p><strong>Hours:</strong> Mon–Sun: 6:30 AM – 9:00 PM</p>
+                    <div class="map-container">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.2570086976857!2d-73.9877651845946!3d40.7418948793282!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c259a4dcfae691%3A0xc3191f6c7c2b2a63!2s250%205th%20Ave%2C%20New%20York%2C%20NY%2010001%2C%20USA!5e0!3m2!1sen!2sid!4v1678901234567!5m2!1sen!2sid" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </article>
+                <article class="location-card animate__animated animate__fadeInUp animate__delay-0-2s">
+                    <h3>Los Angeles, CA</h3>
+                    <p><strong>Address:</strong> 800 S Broadway, Los Angeles, CA 90014</p>
+                    <p><strong>Phone:</strong> +1 (323) 555-0456</p>
+                    <p><strong>Hours:</strong> Mon–Sat: 7:00 AM – 8:00 PM, Sun: 8:00 AM – 6:00 PM</p>
+                    <div class="map-container">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3305.503463953507!2d-118.25301848450124!3d34.0456382806041!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2c62c2f6d0f6b%3A0x2dbf11f42d2a45d0!2s800%20S%20Broadway%2C%20Los%20Angeles%2C%20CA%2090014%2C%20USA!5e0!3m2!1sen!2sid!4v1678901234567!5m2!1sen!2sid" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </article>
+                <article class="location-card animate__animated animate__fadeInUp animate__delay-0-4s">
+                    <h3>Chicago, IL</h3>
+                    <p><strong>Address:</strong> 200 E Randolph St, Chicago, IL 60601</p>
+                    <p><strong>Phone:</strong> +1 (312) 555-0789</p>
+                    <p><strong>Hours:</strong> Mon–Fri: 6:00 AM – 7:00 PM, Sat–Sun: 7:00 AM – 5:00 PM</p>
+                    <div class="map-container">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2970.478953049187!2d-87.62534578456488!3d41.8845781792209!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880e2addc402179b%3A0x7d6a7f0e6e7d6a7f!2s200%20E%20Randolph%20St%2C%20Chicago%2C%20IL%2060601%2C%20USA!5e0!3m2!1sen!2sid!4v1678901234567!5m2!1sen!2sid" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <!-- Footer Section -->
+                <footer class="site-footer">
+        <div class="footer-container">
+
+        <nav class="footer-nav" aria-label="Footer navigation">
+            <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+        </ul>
+            <ul>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="location.html">Locations</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+
+        <div class="footer-logo-tagline">
+            <img src="assets/logo-brew-bean-cafe.png" alt="Brew & Bean Café Logo" class="footer-logo">
+            <p class="footer-tagline">Sip The Vibes, Share the Love</p>
+        </div>
+
+        <div class="footer-social-media" role="navigation" aria-label="Social media links">
+        <p class="social-media-heading">Find Us more at Social Media</p>
+            <div class="social-icons">
+                <a href="https://www.facebook.com/" target="_blank" rel="noopener" aria-label="Facebook">
+                    <img src="assets/logo-facebook.svg" alt="Facebook logo">
+                    <span>Facebook</span>
+                </a>
+                <a href="https://www.x.com/" target="_blank" rel="noopener" aria-label="X (Twitter)">
+                    <img src="assets/logo-x.svg" alt="X logo">
+                    <span>X</span>
+                </a>
+                <a href="https://www.instagram.com/" target="_blank" rel="noopener" aria-label="Instagram">
+                    <img src="assets/logo-instagram.svg" alt="Instagram logo">
+                    <span>Instagram</span>
+                </a>
+            </div>
+        </div>
+        </div>
+        
+            <div class="footer-bottom">
+                <p>&copy; 2025 Brew & Bean Café – All rights reserved.</p>
+            </div>
+        </footer>
+    </div>
+    <script src="js/main.js" defer></script>
+</body>
+</html>

@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brew & Bean Café – Sip the Vibe</title>
+    <meta name="description" content="Experience the best coffee and cozy vibes at Brew & Bean Café. Your perfect spot for quality brews and good times.">
+    <link rel="icon" href="assets/logo-brew-bean-coffee.png" type="image/svg">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" rel="stylesheet">
+</head>
+
+<body class="transition-fade">
+    <div id="page-wrapper">
+
+        <!-- Header Section -->
+        <header class="site-header">
+            <nav class="navbar" aria-label="Main navigation">
+                <a href="index.html" class="logo" aria-label="Home">
+                    <img src="assets/logo-brew-bean-cafe.png" alt="Brew & Bean Café Logo">
+                </a>
+                <button class="burger" aria-controls="primary-menu" aria-expanded="false" aria-label="Open Menu">
+                    <span class="burger-line"></span>
+                    <span class="burger-line"></span>
+                    <span class="burger-line"></span>
+                </button>
+                <ul id="primary-menu" class="nav-list">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="menu.html">Menu</a></li>
+                    <li><a href="location.html">Locations</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <!-- Hero Section -->
+            <section class="hero-video-container" aria-label="Hero Background Video">
+            <!-- Video Background -->
+            <video playsinline autoplay muted loop poster="/assets/coffee-shop-background-thumbnail.png" class="hero-video">
+                <source src="assets/coffee-shop-background.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+
+  <!-- Centered Content Overlay -->
+        <div class="hero-content">
+            <h1 class="hero-title">Welcome to Brew &amp; Bean Café</h1>
+            <p class="hero-subtitle">Crafted Coffee, Curated Comfort, and Stories to Share.</p>
+            <a href="menu.html" class="btn-primary">Look Menu</a>
+        </div>
+        </section>
+
+        <!-- Highlights Section -->
+        <section class="highlights" aria-labelledby="highlights-title">
+            <h2 id="highlights-title" class="section-title animate__animated animate__fadeInUp">Why Choose Brew & Bean? More Than Just Coffee.</h2>
+            <div class="highlight-cards">
+                <article class="card animate__animated animate__flipInX">
+                    <img src="assets/premium-quality.jpg" alt="Premium Quality Coffee Beans" loading="lazy" aria-hidden="true">
+                    <h3>Premium Quality</h3>
+                    <p>From sustainably sourced beans to a perfect roast, every cup is a masterpiece.</p>
+                </article>
+                <article class="card animate__animated animate__flipInX animate__delay-0-3s">
+                    <img src="assets/cozy-vibes.jpg" alt="Cozy cafe interior with warm lighting" loading="lazy" aria-hidden="true">
+                    <h3>Cozy Vibes</h3>
+                    <p>Unwind in our inviting spaces, perfect for chilling, working, or connecting.</p>
+                </article>
+                <article class="card animate__animated animate__flipInX animate__delay-0-6s">
+                    <img src="assets/community.jpg" alt="Diverse group of people enjoying coffee together" loading="lazy" aria-hidden="true">
+                    <h3>Vibrant Community</h3>
+                    <p>Join our events, workshops, and collaborate with local artists – find your tribe here.</p>
+                </article>
+            </div>
+        </section>
+
+        <!-- Call to Action Section (New Addition) -->
+        <section class="cta-section animate__animated animate__fadeInUp">
+            <div class="cta-content">
+                <h2>Ready for Your Daily Dose of Awesome?</h2>
+                <p>Find your nearest Brew & Bean location and let us brighten your day.</p>
+                <a href="location.html" class="btn-secondary">Find a Location</a>
+            </div>
+        </section>
+
+        <!-- Footer Section -->
+        <footer class="site-footer">
+        <div class="footer-container">
+
+        <nav class="footer-nav" aria-label="Footer navigation">
+            <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+        </ul>
+            <ul>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="location.html">Locations</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+
+        <div class="footer-logo-tagline">
+            <img src="assets/logo-brew-bean-cafe.png" alt="Brew & Bean Café Logo" class="footer-logo">
+            <p class="footer-tagline">Sip The Vibes, Share the Love</p>
+        </div>
+
+        <div class="footer-social-media" role="navigation" aria-label="Social media links">
+        <p class="social-media-heading">Find Us more at Social Media</p>
+            <div class="social-icons">
+                <a href="https://www.facebook.com/" target="_blank" rel="noopener" aria-label="Facebook">
+                    <img src="assets/logo-facebook.svg" alt="Facebook logo">
+                    <span>Facebook</span>
+                </a>
+                <a href="https://www.x.com/" target="_blank" rel="noopener" aria-label="X (Twitter)">
+                    <img src="assets/logo-x.svg" alt="X logo">
+                    <span>X</span>
+                </a>
+                <a href="https://www.instagram.com/" target="_blank" rel="noopener" aria-label="Instagram">
+                    <img src="assets/logo-instagram.svg" alt="Instagram logo">
+                    <span>Instagram</span>
+                </a>
+            </div>
+        </div>
+
+        </div>
+
+        <div class="footer-bottom">
+        © 2025 Brew & Bean Café – All rights reserved.
+        </div>
+        </footer>
+
+        
+    </div>
+    <script src="js/main.js" defer></script>
+</body>
+</html>

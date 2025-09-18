@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Menu – Brew & Bean Café</title>
+    <meta name="description" content="Explore the diverse menu at Brew & Bean Café, featuring signature coffees, refreshing beverages, and delicious lite bites.">
+    <link rel="icon" href="assets/logo-brew-bean-cafe.png" type="image/png">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" rel="stylesheet">
+</head>
+<body class="transition-fade">
+    <div id="page-wrapper">
+        <!-- Header Section -->
+        <header class="site-header">
+            <nav class="navbar" aria-label="Main navigation">
+                <a href="index.html" class="logo" aria-label="Home">
+                    <img src="assets/logo-brew-bean-cafe.png" alt="Brew & Bean Café Logo">
+                </a>
+                <button class="burger" aria-controls="primary-menu" aria-expanded="false" aria-label="Open Menu">
+                    <span class="burger-line"></span>
+                    <span class="burger-line"></span>
+                    <span class="burger-line"></span>
+                </button>
+                <ul id="primary-menu" class="nav-list">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="menu.html">Menu</a></li>
+                    <li><a href="location.html">Locations</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <!-- Hero Section for Menu -->
+        <section class="hero hero-small animate__animated animate__fadeIn" aria-label="Menu Hero Section">
+            <picture>
+                <source srcset="assets/img/menu-bg.webp" type="image/webp">
+                <img src="assets/img/menu-bg.jpg" alt="Delicious coffee and pastries on a table" loading="lazy">
+            </picture>
+
+            <!-- Video Background -->
+            <video playsinline autoplay muted loop poster="/assets/ordering-menu-thumbnail.png" class="hero-video">
+                <source src="assets/ordering-menu.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+
+            <div class="hero-content">
+                <h1 class="hero-title animate__animated animate__fadeInUp">Our Delicious Menu</h1>
+                <p class="hero-subtitle animate__animated animate__fadeInUp animate__delay-0-5s">Crafted with passion, served with a smile.</p>
+            </div>
+        </section>
+
+        <!-- Menu Categories -->
+        <section class="menu-section" aria-labelledby="coffee-title">
+            <h2 id="coffee-title" class="section-title animate__animated animate__fadeInUp">Signature Coffees</h2>
+            <div class="menu-grid">
+                <article class="menu-item animate__animated animate__zoomIn">
+                    <img src="assets/menu/caffee-latte.jpg" alt="Café Latte" loading="lazy">
+                    <h3>Café Latte</h3>
+                    <p>Smooth espresso with steamed milk, topped with a delicate layer of foam.</p>
+                    <span class="price">$4.50</span>
+                </article>
+                <article class="menu-item animate__animated animate__zoomIn animate__delay-0-2s">
+                    <img src="assets/menu/cappuccino.jpg" alt="Cappuccino" loading="lazy">
+                    <h3>Cappuccino</h3>
+                    <p>Espresso, hot milk, and steamed milk foam, a classic Italian experience.</p>
+                    <span class="price">$4.75</span>
+                </article>
+                <article class="menu-item animate__animated animate__zoomIn animate__delay-0-4s">
+                    <img src="assets/menu/caffee-americano.jpeg" alt="Caffè Americano" loading="lazy">
+                    <h3>Caffè Americano</h3>
+                    <p>Bold espresso diluted with hot water, offering a rich flavor similar to drip coffee.</p>
+                    <span class="price">$3.75</span>
+                </article>
+                <article class="menu-item animate__animated animate__zoomIn animate__delay-0-6s">
+                    <img src="assets/menu/moccha.webp" alt="Mocha" loading="lazy">
+                    <h3>Mocha</h3>
+                    <p>A decadent blend of espresso, chocolate syrup, steamed milk, and whipped cream.</p>
+                    <span class="price">$5.25</span>
+                </article>
+                <article class="menu-item animate__animated animate__zoomIn animate__delay-0-8s">
+                    <img src="assets/menu/cold-brew.jpg" alt="Cold Brew" loading="lazy">
+                    <h3>Cold Brew</h3>
+                    <p>Smooth, low-acidity coffee concentrate steeped for hours, served over ice.</p>
+                    <span class="price">$5.00</span>
+                </article>
+                <article class="menu-item animate__animated animate__zoomIn animate__delay-1s">
+                    <img src="assets/menu/caramel-macchiato.webp" alt="Caramel Macchiato" loading="lazy">
+                    <h3>Caramel Macchiato</h3>
+                    <p>Vanilla syrup, steamed milk, foam, espresso, and a caramel drizzle.</p>
+                    <span class="price">$5.50</span>
+                </article>
+            </div>
+        </section>
+
+        <section class="menu-section" aria-labelledby="snacks-title">
+            <h2 id="snacks-title" class="section-title animate__animated animate__fadeInUp">Lite Bites & Pastries</h2>
+            <div class="menu-grid">
+                <article class="menu-item animate__animated animate__zoomIn">
+                    <img src="assets/menu/butter-croissant.jpg" alt="Butter Croissant" loading="lazy">
+                    <h3>Butter Croissant</h3>
+                    <p>Flaky, buttery, and baked to golden perfection.</p>
+                    <span class="price">$3.50</span>
+                </article>
+                <article class="menu-item animate__animated animate__zoomIn animate__delay-0-2s">
+                    <img src="assets/menu/blueberry-muffin.webp" alt="Blueberry Muffin" loading="lazy">
+                    <h3>Blueberry Muffin</h3>
+                    <p>Soft, sweet, and bursting with fresh blueberries.</p>
+                    <span class="price">$3.75</span>
+                </article>
+                <article class="menu-item animate__animated animate__zoomIn animate__delay-0-4s">
+                    <img src="assets/menu/breakfast-sandwich.webp" alt="Breakfast Sandwich" loading="lazy">
+                    <h3>Breakfast Sandwich</h3>
+                    <p>Toasted artisanal bread with egg, cheese, and your choice of bacon or sausage.</p>
+                    <span class="price">$6.00</span>
+                </article>
+            </div>
+        </section>
+
+        <!-- Footer Section -->
+                <footer class="site-footer">
+        <div class="footer-container">
+
+        <nav class="footer-nav" aria-label="Footer navigation">
+            <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+        </ul>
+            <ul>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="location.html">Locations</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+
+        <div class="footer-logo-tagline">
+            <img src="assets/logo-brew-bean-cafe.png" alt="Brew & Bean Café Logo" class="footer-logo">
+            <p class="footer-tagline">Sip The Vibes, Share the Love</p>
+        </div>
+
+        <div class="footer-social-media" role="navigation" aria-label="Social media links">
+        <p class="social-media-heading">Find Us more at Social Media</p>
+            <div class="social-icons">
+                <a href="https://www.facebook.com/" target="_blank" rel="noopener" aria-label="Facebook">
+                    <img src="assets/logo-facebook.svg" alt="Facebook logo">
+                    <span>Facebook</span>
+                </a>
+                <a href="https://www.x.com/" target="_blank" rel="noopener" aria-label="X (Twitter)">
+                    <img src="assets/logo-x.svg" alt="X logo">
+                    <span>X</span>
+                </a>
+                <a href="https://www.instagram.com/" target="_blank" rel="noopener" aria-label="Instagram">
+                    <img src="assets/logo-instagram.svg" alt="Instagram logo">
+                    <span>Instagram</span>
+                </a>
+            </div>
+        </div>
+        </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2025 Brew & Bean Café – All rights reserved.</p>
+            </div>
+        </footer>
+    </div>
+    <script src="js/main.js" defer></script>
+</body>
+</html>
