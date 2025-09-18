@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", () => {
-  const mobileNavToggle = document.querySelector(".mobile-nav-toggle");
-  const nav = document.querySelector(".nav-menu");
+  const mobileNavToggle = document.querySelector(".burger");
+  const nav = document.querySelector("#primary-menu");
   const contactForm = document.getElementById("contact-form");
   const formStatus = document.querySelector(".form-status");
 
